@@ -12,7 +12,7 @@ const ChatBox = ({ user }) => {
   const token = localStorage.getItem("token");
   useEffect(() => {
     axios
-      .get("https://vidyasetu-ceye.onrender.com", {
+      .get("https://vidyasetu-1.onrender.com", {
         headers: { token },
       })
       .then((res) => setMessages(res.data))
@@ -34,7 +34,7 @@ const ChatBox = ({ user }) => {
 
     try {
       await axios.post(
-        "https://vidyasetu-ceye.onrender.com",
+        "https://vidyasetu-1.onrender.com",
         { text },
         {
           headers: { token },
