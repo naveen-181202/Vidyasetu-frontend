@@ -9,11 +9,11 @@ const Footer = () => {
           &copy; 2024 Your VidyaSetu Platform. All rights reserved. <br />
           Made with ❤️ by
           <a
-            href="https://github.com/alokpatel45"
+            href="https://github.com/naveen-181202"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Alok Patel
+            Bhukya Naveen
           </a>
         </p>
         <div className="social-links">
